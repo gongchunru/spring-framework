@@ -63,7 +63,7 @@ public class ClassPathResource extends AbstractFileResolvingResource {
 	 * @see org.springframework.util.ClassUtils#getDefaultClassLoader()
 	 */
 	public ClassPathResource(String path) {
-		this(path, (ClassLoader) null);
+		this(path,  (ClassLoader) null);
 	}
 
 	/**
